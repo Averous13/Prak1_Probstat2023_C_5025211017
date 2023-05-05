@@ -52,19 +52,19 @@ Diketahui nilai x = 3 dan v = 10. Tentukan:
 ### a. Fungsi probabilitas dari distribusi Chi-Square.
 
 ### b. Histogram dari distribusi Chi-Square dengan 500 data acak
-
+Kita disini untuk membuat data bangkitan acak kita gunakan rchisq
 ### c. Nilai rataan (μ) dan varian (σ²) dari distribusi Chi-Square.
-
+Nilai rataan pada distribusi chi-square kita dapatkan dari nilai v dan varian kita peroleh dari 2 * v
 # Nomer4
 Diketahui data bangkitan acak sebanyak 100 dengan mean = 45 dan sd = 5.
 Tentukan:
 
 ### a. Fungsi probabilitas dari distribusi Normal P(X1 ≤ x ≤ X2), hitung z-scorenya dan plot data bangkitan acaknya dalam bentuk grafik. Petunjuk (gunakan fungsi plot()).
-
+Untuk distribusi normal, kita plot berdasarkan zscore. nilai dari zscore kita peroleh dari nilai bangkitan acak berdasarkan kasus soal
 ### b. Gambarkan histogram dari distribusi Normal dengan breaks 50
 
 ### c. Nilai varian (σ²) dari hasil data bangkitan acak distribusi Normal.
-
+nilai varian akan dihitung dari nilai sd * 2
 
 # Nomer5
 Kerjakanlah menggunakan distribusi T-Student.
