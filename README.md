@@ -24,10 +24,10 @@ maka dari itu perhitungan akan dilakukan secara iteratif sebanyak 3 sampai denga
 ![Nomer 1 a - d](https://github.com/Averous13/Prak1_Probstat2023_C_5025211017/blob/main/Nomer%201a-d.png)
 
 ### e. Berapa nilai harapan dan simpangan baku banyak bayi laki-laki?
-![]()
+![Nomer 1 e-f](https://github.com/Averous13/Prak1_Probstat2023_C_5025211017/blob/main/Nomer1e-f.png)
 
 ### f. Gambarkan histogram pendistribusian banyak bayi laki-laki.
-![]()
+![Histogram Bayi laki-laki](https://github.com/Averous13/Prak1_Probstat2023_C_5025211017/blob/main/plot1.png)
 
 # Nomer2
 Misalkan banyak kematian karena kanker tulang untuk seluruh pekerja di pabrik ban dalam 20 tahun ke depan adalah 1,8.
@@ -39,12 +39,15 @@ parameter dari jumlah akan menjadi x = 4
 untuk kematian paling banyak 4 menjadi maka x < 4, perhitungan dilakukan secara iteratif dari 0 sampai 3
 ### d. Berapa peluang lebih dari 4 kematian akibat kanker tulang?
 untuk itu karena kita tidak tahu jumlah total dari pekerja pabrik maka bisa dikatakan keseluruhan probabilitas untuk semua adalah 1. Maka semua dikurangi dari kematian dibawah 4
+![Nomer 2a-d](https://github.com/Averous13/Prak1_Probstat2023_C_5025211017/blob/main/nomer2a-d.png)
 ### f. Gambarkan histogram pendistribusian banyak banyak kematian akibat kanker tulang untuk pekerja pabrik ban
 untuk menggambarkannya kita gunakan fungsi hist dengan parameter dari distribusi poisson
+![Histogram kematian kanker tulang](https://github.com/Averous13/Prak1_Probstat2023_C_5025211017/blob/main/histpois.png)
 ### g. Gunakan simulasi untuk memeriksa hasil sebelumnya
 pada simulasi kita gunakan fungsi rpois, yang akan dijadikan pada perbandingan soal berikutnya
 ### h. Jelaskan banyak kematian akibat kanker tulang berdasarkan simulasi Anda.Bandingkan jawaban pada pertanyaan 2d dengan hasil simulasi Anda.
 karena melakukan perbandingan tinggal kita rasiokan jawaban soal g dengan d
+![Nomer 2d-h](https://github.com/Averous13/Prak1_Probstat2023_C_5025211017/blob/main/Nomer2d-h.png)
 
 # Nomer3
 Diketahui nilai x = 3 dan v = 10. Tentukan:
