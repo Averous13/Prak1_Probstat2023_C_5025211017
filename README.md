@@ -70,26 +70,29 @@ Untuk distribusi normal, kita plot berdasarkan zscore. nilai dari zscore kita pe
 ![Histogram distribusi normal](https://github.com/Averous13/Prak1_Probstat2023_C_5025211017/blob/main/hisnorm.png)
 ### c. Nilai varian (σ²) dari hasil data bangkitan acak distribusi Normal.
 nilai varian akan dihitung dari nilai sd * 2
-
+![Nomer4](https://github.com/Averous13/Prak1_Probstat2023_C_5025211017/blob/main/Nomer4.png)
 # Nomer5
 Kerjakanlah menggunakan distribusi T-Student.
 
 ### a. Berapa probabilitas terjadinya suatu peristiwa acak X kurang dari -2,34 dengan 6 derajat kebebasan?
-
+Untuk permasalahan ini disimpulkan untuk probabiilitasnya bergerak ke arah kiri, maka kita gunakan nilai default pada parameter lower.tail 
 ### b. Berapa probabilitas terjadinya suatu peristiwa acak X lebih dari 1,34 dengan 6 derajat kebebasan?
-
+Karena bernilai lebih maka lower.tail kita ubah nilainya jadi false
 ### c. Berapa probabilitas terjadinya suatu peristiwa acak X kurang dari -1,23 ataulebih besar dari 1,23 dengan 3 derajat kebebasan?
-
+Karena kurang dari -1.23 atau lebih besar 1.23 maka perhitungan dilakukan menjumlahkan hasil dari kurang dan lebih besar, sebenarnya untuk perhitungan ini karena luasnya sama maka bisa hasil probabilitas salah satu dikalikan dua
+![Nomer5](https://github.com/Averous13/Prak1_Probstat2023_C_5025211017/blob/main/Nomer5a-c.png)
 ### d. Berapa probabilitas terjadinya suatu peristiwa acak X berada di antara -0,94 dan 0,94 dengan 14 derajat kebebasan?
-
+Karena berada ditengah atau antara maka untuk perhitungan bisa dilakukan dengan mengurangkan hasil dari batas atas dengan batas bawah
 ### e. Berapa nilai t-score dengan 5 derajat kebebasan yang memiliki luasan 0,0333 satuan persegi di bawah kurva dan di sebelah kiri t-score tersebut?
-
+Untuk perhitungan mencari t-score kita bisa gunakan fungsi qt dengan parameter luasan diatas dan derajat kebebasan 5
 ### f. Berapa nilai t-score dengan 25 derajat kebebasan yang memiliki luasan 0,125 satuan persegi di bawah kurva dan di sebelah kanan t-score tersebut?
-
+Karena bernilai dibawah cukup kita ganti lower.tail dengan nilai true
+![Nomer52](https://github.com/Averous13/Prak1_Probstat2023_C_5025211017/blob/main/Nomer5d-f.png)
 ### g. Berapa nilai t-score dengan 11 derajat kebebasan yang memiliki luasan 0,75 satuan persegi di bawah kurva dan di antara t-score tersebut dan negatif dari nilai t-score tersebut?
-
+Untuk permasalahan ini kita perlu tentukan terlebih dahulu kedua nilai kanan dan kiri. Kemudian kita cari nilai selisih atau delta dari keduanya. Nilai kanan kiri ini diperoleh dari pembagian luas menjadi dua. Hasil selisih ini kita bagi dua dan ditambahkan pada hasilnya t-score dengan luasan 0.75
 ### h. Berapa nilai t-score dengan 23 derajat kebebasan yang memiliki luasan 0,0333 satuan persegi di bawah kurva dan di luar interval antara t-score tersebut dan negatif dari nilai t-score tersebut?
-
+Sama halnya dengan permasalahan sebelumnya kita bagi luasannnya menjadi dua dan cari kedua selisihnya, Kita akan mendapati tiga kasus jika luasan kiri kurang dari t-score maka nilai tscore akan berniilai negatif, jika t-kanan bernilai lebih besar dari t-score maka bernilai positif, dan kasus jika nilainya tepat sama maka akan kita hitung menggunakan rumus sesuai kode yang tercantum
+![Nomer53](https://github.com/Averous13/Prak1_Probstat2023_C_5025211017/blob/main/Nomer5g-h.png)
 
 
 
