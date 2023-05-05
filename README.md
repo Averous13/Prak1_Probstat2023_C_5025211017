@@ -55,16 +55,19 @@ Diketahui nilai x = 3 dan v = 10. Tentukan:
 
 ### b. Histogram dari distribusi Chi-Square dengan 500 data acak
 Kita disini untuk membuat data bangkitan acak kita gunakan rchisq
+![histogram chisquare](https://github.com/Averous13/Prak1_Probstat2023_C_5025211017/blob/main/hischisq.png)
 ### c. Nilai rataan (μ) dan varian (σ²) dari distribusi Chi-Square.
 Nilai rataan pada distribusi chi-square kita dapatkan dari nilai v dan varian kita peroleh dari 2 * v
+![Nomer 3](https://github.com/Averous13/Prak1_Probstat2023_C_5025211017/blob/main/Nomer3.png)
 # Nomer4
 Diketahui data bangkitan acak sebanyak 100 dengan mean = 45 dan sd = 5.
 Tentukan:
 
 ### a. Fungsi probabilitas dari distribusi Normal P(X1 ≤ x ≤ X2), hitung z-scorenya dan plot data bangkitan acaknya dalam bentuk grafik. Petunjuk (gunakan fungsi plot()).
 Untuk distribusi normal, kita plot berdasarkan zscore. nilai dari zscore kita peroleh dari nilai bangkitan acak berdasarkan kasus soal
+![Distribusi normal](https://github.com/Averous13/Prak1_Probstat2023_C_5025211017/blob/main/plotrnorm.png)
 ### b. Gambarkan histogram dari distribusi Normal dengan breaks 50
-
+![Histogram distribusi normal](https://github.com/Averous13/Prak1_Probstat2023_C_5025211017/blob/main/hisnorm.png)
 ### c. Nilai varian (σ²) dari hasil data bangkitan acak distribusi Normal.
 nilai varian akan dihitung dari nilai sd * 2
 
