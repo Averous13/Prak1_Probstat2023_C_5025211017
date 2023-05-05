@@ -21,7 +21,7 @@ parameter n maka akan menjadi n < 3
 ### d. Berapa probabilitas bahwa tiga atau lebih bayi di antaranya berjenis kelamin laki-laki?
 parameter n maka akan menjadi 3 < n < 10
 maka dari itu perhitungan akan dilakukan secara iteratif sebanyak 3 sampai dengan jumlah kelahiran
-![Nomer 1 a - d](Nomer 1a-d.png)
+![Nomer 1 a - d](https://github.com/Averous13/Prak1_Probstat2023_C_5025211017/blob/main/Nomer%201a-d.png)
 
 ### e. Berapa nilai harapan dan simpangan baku banyak bayi laki-laki?
 ![]()
